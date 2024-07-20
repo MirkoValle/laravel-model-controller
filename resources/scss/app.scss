@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    width: calc((100% / 5) - 5rem);
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: bisque;
+}
